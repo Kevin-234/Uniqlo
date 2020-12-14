@@ -29,8 +29,6 @@ nav {
   border-bottom: 1px solid lightgrey;
 }
 
-
-
 /* UNIQLO svg sizing and positioning */
 .logo-menu-container {
   display: flex;
@@ -66,7 +64,6 @@ nav {
   width: 2.5vw;
   max-height: 5%;
   margin-top: 10px
-  
 }
 
 .menu {
@@ -183,14 +180,28 @@ img{
   width: 4px;
 }
 
+.carousel-control-prev-icon {
+  margin-right: 9em;
+  color-adjust: grey;
+  /* background-color: rgba(253, 253, 253, 0.767);
+  color:rgba(92, 92, 92, 0.767) */
+}
+
+.carousel-control-next-icon {
+  margin-left: 9em;
+}
+
 /* GRID 4 images */
 .grid-title {
-  margin-left: 15px;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
   font-weight: 600;
+  
 }
 
 .container {
   margin-top: 5em;
+  padding: 0;
 }
 
 .img-1 {
@@ -333,4 +344,14 @@ img{
 
 .footer-list-link {
   margin: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .deals-ads {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
 }
