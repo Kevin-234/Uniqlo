@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>title</title>
+  <!-- boostrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- link font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <!-- css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- reset css -->
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+
+  <!-- nav -->
+    <nav>
+      <!-- logo -->
+      <div class="logo-menu-container">
+        <a class="icon-wrapper" href="index.html">
+          <ul class="icon">
+            <img src="figma icon/ユニクロ-BOLD copy.svg" class="jp-ver" alt="ユニクロ"> 
+            <img src="figma icon/UNIQLO-BOLD copy.svg" class="en-ver" alt="UNIQLO">
+          </ul>
+          <!-- nav menu  -->
+        <ul class="menu">
+          <li class="nav-menu women"><a href="women.html">WOMEN</a></li>
+          <li class="nav-menu men"><a href="men.html">MEN</a></li>
+          <li class="nav-menu kids"><a href="kids.html">KIDS</a></li>
+          <li class="nav-menu baby"><a href="baby.html">BABY</a></li>
+        </ul>
+      </div>
+        <!-- search bar -->
+        <div class="srchbr-wrapper">
+          <input type="text" class="input" placeholder="Search by keyword?">
+          <div class="searchbtn"><i class="fas fa-search"></i></div>
+        </div>
+        <i class="far fa-user fa-icons"></i>
+        <i class="far fa-heart"></i>
+        <i class="fas fa-shopping-cart fa-icons"></i>
+    </nav>
+    <!-- main -->
+  <main>
+
+    <!-- wide image -->
+    <div class="wide-img-container">
+      <img src="images/uniqlo.jpg" class="wide-img" alt="">
+    </div>
+
+    <!-- slide show code goes here -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/fashion-1.jpg" class="d-block w-100" alt="fashion-1" height="1000">
+        </div>
+        <div class="carousel-item">
+          <img src="images/fashion-2.jpg" class="d-block w-100" alt="fashion-2" height="1000">
+        </div>
+        <div class="carousel-item">
+          <img src="images/fashion-3.jpg" class="d-block w-100" alt="fashion-3" height="1000">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        
+      </a>
+    </div>
+    
+    <!-- four grid -->
+    <div class="container">
+      <h2 class="fr-head">
+        <span class="grid-title">WRAPPED IN WARMTH</span>
+      </h2>
+      <div class="row">
+        <div class="col-6">
+          <img src="images/uni-1.jpg" class="col-md-10 col-lg img-1" alt="">
+          <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, corporis?</p>
+        </div>
+  
+        <div class="col-6">
+          <img src="images/uni-2.jpg" class="col-md-10 col-lg img-2" alt="">
+          <p  class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, corporis?</p>
+        </div>
+  
+        <div class="col-6">
+          <img src="images/uni-3.jpg" class="col-md-10 col-lg img-3"alt="">
+          <p  class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, corporis?</p>
+        </div>
+  
+        <div class="col-6">
+          <img src="images/uni-4 kids.jpg" class="col-md-10 col-lg img-4" alt="">
+          <p  class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, corporis?</p>
+        </div>
+  
+      </div>
+    </div>
+
+    <!-- under slide show code start here -->
+    <div class="deals-ads">
+      <div class="tit">
+        <h2 class="deals-title">12 Days of Deals</h2>
+      </div>
+      <div class="deals-ads-line">
+        <i class="fas fa-shipping-fast"></i>
+        <p class="deals-info">Shop by 12/17 6pm to make it on time for Christmas! <br> <a href="#" class="see-detail">See Details</a></p>
+        <a href="women.html" class="deals-link"></a><button type="button" class="btn btn-outline-light">Shop WOMEN</button></a>
+        <a href="men.html" class="deals-link"><button type="button" class="btn btn-outline-light">Shop MEN</button></a>
+        <a href="kids.html" class="deals-link"><button type="button" class="btn btn-outline-light">Shop KIDS</button></a>
+        <a href="baby.html" class="deals-link"><button type="button" class="btn btn-outline-light">Shop BABY</button></a>
+      </div>
+      
+
+    </div>
+
+  </main>
+  <!-- footer -->
+    <footer class="footer-wrapper">
+      <div class="footer-container">
+        <div class="footer-list-container">
+          
+            <div class="footer-header">About Uniqlo</div>
+          <!-- first footer menu list -->
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">LifeWear</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Information</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Careers</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Sustainability</div>
+          </a>
+        </div>
+        <!-- second footer menu list -->
+        <div class="footer-list-container">
+          
+            <div class="footer-header">Help</div>
+          
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">FAQ</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">contact Us</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Return Policy</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Accessibility</div>
+          </a>
+        </div>
+        <!-- third footer menu list -->
+        <div class="footer-list-container">
+          
+            <div class="footer-header ftr">Account</div>
+          
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Membership</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Profile</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Coupons</div>
+          </a>
+        </div>
+        <!-- fourth footer menu list -->
+        <div class="footer-list-container">
+          
+            <div class="footer-header">E-Newsletter</div>
+          
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">LifeWear</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Information</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Careers</div>
+          </a>
+          <a href="#" class="footer-list-link">
+            <div class="footer-list">Sustainability</div>
+          </a>
+        </div>
+      </div>
+        <!-- &copy; Kevin Taguchi - 12.17.20 -->
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

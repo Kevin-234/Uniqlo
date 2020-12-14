@@ -1,0 +1,334 @@
+/* header */
+.home-header {
+  /* display flex and centerize the home title + description*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-title {
+  font-size: 2.5em;
+  /* adjust position */
+  margin: 10px;
+}
+
+.description {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 90vw;
+
+  margin-top: .5rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+
+
+/* UNIQLO svg sizing and positioning */
+.logo-menu-container {
+  display: flex;
+  align-items: center;
+  /* might needs changes after input icons beside search bar */
+  margin-right: 3em;
+}
+
+.icon-wrapper {
+  /* set the wrapper beside nav menu*/
+  display: flex;
+  /* need this code for appear the svg icon */
+  align-items: flex-start;
+}
+
+.icon {
+  /* give a space to put each svg besides (row) */
+  width: 7vw;
+  padding: 0;
+}
+
+.jp-ver {
+  /* positioning */
+  max-width: 2.5vw;
+  height: 5%;
+  margin-right: 10px;
+  margin-top: 10px
+  
+}
+
+.en-ver {
+  /* positioning */
+  width: 2.5vw;
+  max-height: 5%;
+  margin-top: 10px
+  
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  width: 30vw;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1em;
+
+  width: 3vw;
+}
+
+.nav-menu:hover {
+  text-decoration: aqua underline;
+  color: black;
+}
+
+.kids {
+  margin: 0;
+}
+
+
+/* search button */
+.srchbr-wrapper{
+    max-width: 500px;
+    min-width: 10%;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    border: 1px solid rgba(196, 196, 196, 0.767);
+}
+
+.srchbr-wrapper .input {
+  width: 190px;
+  padding: 7px 5px 7px 10px;
+  /* border: 1px solid black; */
+  font-size: 14px;
+  /* remove input border */
+  border: none;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.471;
+}
+
+.searchbtn {
+  position: relative;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.searchbtn .fas{
+  width: 30px;
+  height: 17px;
+  padding: 10px 12px 9px 10px;
+}
+
+/* Icons beside search bar in nav bar */
+.fa-icons {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.fa-heart {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+/* MAIN */
+
+/* first wide image container*/
+.wide-img-container {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 3em;
+  /* position relative to place the images on page (need this code for not go over the others) */
+  position: relative;
+}
+
+/* top page first wide image size */
+.wide-img {
+  height: 20vh;
+  width: 60vw;
+}
+
+/* slide show */
+.carousel{
+  margin: auto;
+  margin-top: 70px;
+  height: 50vh;
+  width: 60vw;
+}
+
+.carousel-inner {
+  height: 50vh;
+}
+
+.carousel-item {
+  height: 50vh;
+}
+
+img{
+  object-fit: cover;
+}
+
+.carousel-indicators li {
+  width: 4px;
+}
+
+/* GRID 4 images */
+.grid-title {
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+.img-1 {
+  height: 60vh;
+  width: 60vh;
+}
+
+.img-2 {
+  height: 60vh;
+  width: 60vh;
+}
+
+.img-3 {
+  height: 60vh;
+  width: 60vh;
+}
+
+.img-4 {
+  height: 60vh;
+  width: 60vh;
+}
+
+.info {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+/* deals ads go after four grid*/
+.deals-ads{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 60vw;
+  
+
+  margin-bottom: 10px;
+  
+  background-color: rgb(170, 3, 3);
+}
+
+/* set up deals ads title's field */
+.tit {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* design deals ads title*/
+.deals-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  color: rgb(255, 215, 0);
+  /* why font weight is not working? TODO solve it */
+}
+
+/* WHERE: under of deals ads title */
+.deals-ads-line{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.fa-shipping-fast {
+  font-size: 2em;
+  color: rgb(255, 254, 251);
+}
+
+/* deals info */
+.deals-info {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.see-detail {
+  color: #FFF;
+}
+
+.see-detail:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+/* deals button design */
+.btn-outline-light {
+  border-radius: none;
+  height: 2.8em;
+  font-weight: 550;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: rgb(170, 3, 3);
+  font-weight: 550;
+}
+
+/* footer */
+.footer-wrapper {
+  display: flex;
+  height:40vh;
+  width: 100vw;
+    
+  background-color: #f4f4f4;
+  color: #000;
+
+  /* position: relative; */
+}
+
+.footer-container {
+  display: flex;
+  margin: auto;
+}
+
+.footer-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 20vw;
+}
+
+.footer-header {
+ 
+  margin: .6rem;
+  
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.ftr {
+  margin-top: 0;
+}
+
+.footer-list-link {
+  margin: 10px;
+}
