@@ -215,7 +215,9 @@ img{
 
 .info {
   text-align: start;
-  margin-left: 1rem;
+  font-weight: 700;
+  margin: 10px;
+  margin-left: 0;
 }
 
 /* deals ads go after four grid*/
