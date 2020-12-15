@@ -75,23 +75,38 @@ nav {
   padding: 0;
 }
 
+/* li tag class */
 .nav-menu {
-  margin: 0 10px;
+  margin: 0 5px;
   font-weight: bold;
   font-size: 1em;
-
+  color: black;
   width: 3vw;
 }
 
 .nav-menu:hover {
-  text-decoration: aqua underline;
-  color: black;
+  border-bottom: 1px solid aqua;
 }
 
-.kids {
+/* a tag class */
+.nav-link {
+  padding: 0;
   margin: 0;
 }
 
+.nav-link:hover {
+  color: black;
+}
+
+
+.kids {
+  margin: 0;
+  width: 50px;
+}
+
+.men {
+  width: 55px;
+}
 
 /* search button */
 .srchbr-wrapper{
@@ -146,7 +161,7 @@ nav {
   display: flex;
   justify-content: center;
   
-  margin-top: 3em;
+  margin-top: 6em;
   /* position relative to place the images on page (need this code for not go over the others) */
   position: relative;
 }
@@ -160,9 +175,10 @@ nav {
 /* slide show */
 .carousel{
   margin: auto;
-  margin-top: 70px;
+  margin-top: 20px;
   height: 50vh;
   width: 60vw;
+  object-fit: cover;
 }
 
 .carousel-inner {
@@ -192,6 +208,56 @@ img{
   margin-left: 9em;
 }
 
+/* features links */
+.feature-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  
+  width: 73em;
+  margin: auto;
+  margin-top: 3em;
+}
+
+/* feature boxes */
+.feature-links-item {
+  margin: auto;
+  margin-top: 2em;
+  border-right: 1px solid #dadada;
+}
+
+/* last feature box */
+.feature-links-edge {
+  border: none;
+}
+
+/* feature links title */
+.links-tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Vollkorn', serif;  */
+  font-weight: 550;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/* feature links */
+.fr-links {
+  margin-right: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  /* text-underline */
+  border-bottom: 1px solid black; 
+}
+
+.fr-links:hover {
+  color: rgb(48, 136, 163);
+  border-bottom: 1px solid rgb(48, 136, 163); 
+}
+
 /* GRID 4 images */
 .grid-title {
   margin-right: 1rem;
@@ -204,24 +270,13 @@ img{
   padding: 0;
 }
 
-.img-1 {
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16 {
   height: 60vh;
   width: 60vh;
 }
 
-.img-2 {
-  height: 60vh;
-  width: 60vh;
-}
-
-.img-3 {
-  height: 60vh;
-  width: 60vh;
-}
-
-.img-4 {
-  height: 60vh;
-  width: 60vh;
+.img-13, .img-14 {
+  border: 1px solid rgb(236, 236, 236);
 }
 
 /* title of description */
@@ -234,6 +289,11 @@ img{
   margin-left: 0;
 
   width: 100%;
+}
+
+.info-above-13 {
+  font-weight: 600;
+  font-size: 1.1em;
 }
 
 /* deals ads go after four grid*/
