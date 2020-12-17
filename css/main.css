@@ -127,6 +127,10 @@ nav {
   line-height: 1.471;
 }
 
+/* focus delete input border line */
+.input:focus {
+  outline: none;
+}
 .searchbtn {
   position: relative;
   cursor: pointer;
@@ -449,7 +453,7 @@ nav {
 }
 
 .card .content p{
-  text-align: justify;
+  text-align: start;
   font-size: 15px;
   margin: 10px 0;
 }
