@@ -77,15 +77,14 @@ nav {
 
 /* li tag class */
 .nav-menu {
-  margin: 0 5px;
+  margin: 0 4px;
   font-weight: bold;
-  font-size: 1em;
   color: black;
-  width: 3vw;
+  height: 1.5em;
 }
 
 .nav-menu:hover {
-  border-bottom: 1px solid aqua;
+  border-bottom: 3px solid #378694;
 }
 
 /* a tag class */
@@ -98,31 +97,28 @@ nav {
   color: black;
 }
 
-
 .kids {
-  margin: 0;
   width: 50px;
 }
 
 .men {
-  width: 55px;
+  width: 50px;
 }
 
 /* search button */
 .srchbr-wrapper{
-    max-width: 500px;
-    min-width: 10%;
+  max-width: 500px;
+  min-width: 10%;
     
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
     
-    border: 1px solid rgba(196, 196, 196, 0.767);
+  border: 1px solid rgba(196, 196, 196, 0.767);
 }
 
 .srchbr-wrapper .input {
   width: 190px;
   padding: 7px 5px 7px 10px;
-  /* border: 1px solid black; */
   font-size: 14px;
   /* remove input border */
   border: none;
@@ -180,14 +176,6 @@ nav {
   width: 60vw;
 }
 
-/* .carousel-inner {
-  height: 50vh;
-}
-
-.carousel-item {
-  height: 50vh;
-} */
-
 .d-block {
   height: 50vh;
 }
@@ -206,6 +194,28 @@ nav {
 .carousel-control-next-icon {
   margin-left: 9em;
 }
+
+/* second wide image */
+.btn-primary {
+  padding: 0;
+}
+
+.btn-save {
+  padding: 6px 0;
+}
+
+/* sale modal close button */
+.btn-close {
+  background-color: transparent;
+  border: none;
+}
+
+/* modal list */
+.pop-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* features links */
 .feature-links {
@@ -258,6 +268,7 @@ nav {
 }
 
 /* GRID 4 images */
+
 .grid-title {
   margin-right: 1rem;
   margin-bottom: 2rem;
@@ -272,6 +283,10 @@ nav {
 .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16 {
   height: 60vh;
   width: 60vh;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16 img {
+  object-fit: cover;
 }
 
 .img-13, .img-14 {
@@ -367,16 +382,184 @@ nav {
   font-weight: 550;
 }
 
+.btn-shop-all {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+  margin-bottom: 5rem;
+}
+
+.shop-all {
+  padding: 1em;
+  width: 60vw;
+  background-color: transparent;
+  border: 1px solid #000;
+
+  font-weight: 700;
+}
+
+.shop-all:hover {
+  opacity: 0.7;
+}
+
+/* card slide */
+.card-slider-tit {
+  margin-left: 11.5em;
+}
+
+.slider-wrapper {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+.slider{
+  max-width: 1000px;
+  display: flex;
+  margin: 3em;
+}
+
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+  width: 15vw;
+  height: 44vh;
+}
+
+.slider .card .img{
+  height: 260px;
+  width: 100%;
+}
+
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider .card .content{
+  padding: 10px 20px;
+}
+
+.card .content .title{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card .content p{
+  text-align: justify;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* dear customer message */
+.dear-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+
+  background-color:rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 0;
+}
+
+.dear-user:hover {
+  background-color:rgb(0, 0, 0);
+  border: 2px solid black;
+
+}
+
+.dear-cus {
+  background-color: black;
+  width: 60vw;
+  height: 6em;
+}
+
+.dear-cus .dear {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+  margin-top: 15px;
+
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+/* UNIQLO today */
+/* title */
+.uni-today {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.today {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.today-row {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin: 1.3rem;
+}
+
+.today-row-in {
+  width: 100%;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.today-tit {
+  width: 100%;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.today-dis {
+  margin-left: 1rem;
+}
+
+/* app image */
+.app-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* information */
+.info-title {
+  margin: 0;
+  margin-top: 5rem;
+  margin-left: 21rem;
+  margin-bottom: 2rem;
+  
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 21rem;
+  margin-bottom: 2rem;
+  width: 60vw;
+}
+/* ------------------- */
 /* footer */
+/* ------------------- */
 .footer-wrapper {
   display: flex;
-  height:40vh;
-  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+  width: 120em;
     
   background-color: #f4f4f4;
   color: #000;
-
-  /* position: relative; */
 }
 
 .footer-container {
@@ -389,16 +572,24 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  width: 20vw;
+  width: 14em;
 }
 
 .footer-header {
- 
+  display: flex;
   margin: .6rem;
-  
   width: 100%;
   font-weight: 600;
   font-size: 1.2em;
+}
+
+.E-Newsletter {
+  justify-self: start;
+  margin: 0;
+}
+
+.E-Newsletter-p {
+  margin-top: 1rem;
 }
 
 .ftr {
@@ -409,12 +600,52 @@ nav {
   margin: 10px;
 }
 
-@media screen and (max-width: 1200px) {
-  .deals-ads {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+.subscribe {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+  margin: 0;
+  margin-bottom: 2em;
+  margin-right: 1em;
+}
 
+.footer-icon-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #818080;
+  color: #fff;
+  height: 35px;
+  width:35px;
+  font-size: 25px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+
+  border-top: 1px solid rgb(211, 211, 211);
+}
+
+.bootstrap-copy-link {
+  margin-left: 23em;
+}
+
+.bootstrap-link {
+  margin-right: 23em;
+}
+
+.term {
+  margin-right: 10px;
 }

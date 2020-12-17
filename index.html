@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uniqlo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UNIQLO</title>
   <!-- boostrap css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- link font awesome -->
@@ -12,7 +13,13 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- reset css -->
   <link rel="stylesheet" href="css/reset.css">
-  <script src="js/app.js"></script>
+  <!-- owl carousel css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <!-- owlcarousel link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/app.js" defer></script>
 </head>
 <body>
 
@@ -44,11 +51,41 @@
     </nav>
     <!-- main -->
   <main>
-
     <!-- wide image -->
     <div class="wide-img-container">
-      <img src="images/uniqlo.jpg" class="wide-img" alt="">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-4">
+        <img src="images/uni-deals.jpg" class="wide-img" alt="">
+      </button>
     </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">PRE-BOXING WEEK DEALS</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li class="pop-list">
+                <a href="#">SHOP CURRENT LIMITED-TIME OFFERS</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">PREVIEW PRE-BOXING WEEK LIMITED-TIME OFFERS</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">FIND OUT ABOUT UPCOMING DEALS</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
     <!-- slide show code goes here -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -84,9 +121,43 @@
 
     <!-- wide image -->
     <div class="wide-img-container">
-      <img src="images/uniqlo-2.jpg" class="wide-img" alt="">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+        <img src="images/uniqlo-2.jpg" class="wide-img" alt="">
+      </button>
     </div>
-
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li class="pop-list">
+                <a href="#">SHOP WOMEN</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">SHOP MEN</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">SHOP KIDS</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">SHOP BABY</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Feature links -->
     <div class="feature-links">
       <div class="feature-links-item">
@@ -116,6 +187,42 @@
         <a class="fr-links" href="/ca/en/feature/new/men">men</a>
         <a class="fr-links" href="/ca/en/feature/new/kids">kids</a>
         <a class="fr-links" href="/ca/en/feature/new/baby">baby</a>
+      </div>
+    </div>
+
+    <!-- wide image -->
+    <div class="wide-img-container">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="images/uniqlo.jpg" class="wide-img" alt="">
+      </button>
+        
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">GIFTS WITH HEART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li class="pop-list">
+                <a href="#">SHOP HOLIDAY LIMITED-TIME OFFERS</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">SHOP THE GIFT GUIDE</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">HOLIDAY RETURNS POLICY</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -268,82 +375,411 @@
   
       </div>
     </div>
-  </main>
-  <!-- footer -->
-    <footer class="footer-wrapper">
-      <div class="footer-container">
-        <div class="footer-list-container">
-          
-          <div class="footer-header">About Uniqlo</div>
-          <!-- first footer menu list -->
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">LifeWear</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Information</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Careers</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Sustainability</div>
-          </a>
+    <!-- cards slider -->
+    <h2 class="fr-head card-slider-tit">
+      <span class="grid-title">UT COLLECTIONS</span>
+    </h2>
+    <div class="slider-wrapper">
+      
+      <div class="slider owl-carousel">
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-a.jpg" alt="folded-blanket">
+          </div>
+            <div class="content">
+              <div class="title">FINLAYSON HOME COLLECTION</div>
+              <p>AVAILABLE ONLINE + CENTRE EATON MONTREAL NOW. Launching in METROPOLIS AT METROTOWN at a later date.</p>
+            </div>
         </div>
-        <!-- second footer menu list -->
-        <div class="footer-list-container">
-          
-            <div class="footer-header">Help</div>
-          
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">FAQ</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">contact Us</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Return Policy</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Accessibility</div>
-          </a>
+      
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-b.jpg" alt="marvel">
+          </div>
+            <div class="content">
+              <div class="title">DRY-EX AMRVEL COLLECTION</div>
+              <p>Feel the power! Marvel heros featured in DRY-EX.</p>
+            </div>
         </div>
-        <!-- third footer menu list -->
-        <div class="footer-list-container">
-          
-            <div class="footer-header ftr">Account</div>
-          
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Membership</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Profile</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Coupons</div>
-          </a>
+        
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-c.jpg" alt="disney mickey">
+          </div>
+            <div class="content">
+              <div class="title">DISNEY MICKEY MOUSE ART BY ANDY WARHOL</div>
+              <p>Brighten up your home with Artistic Mickey Mouse designs by Andy Warhol. Available Exclusively Online.</p>
+            </div>
         </div>
-        <!-- fourth footer menu list -->
-        <div class="footer-list-container">
-          
-            <div class="footer-header">E-Newsletter</div>
-          
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">LifeWear</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Information</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Careers</div>
-          </a>
-          <a href="#" class="footer-list-link">
-            <div class="footer-list">Sustainability</div>
-          </a>
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-d.jpg" alt="peanuts moods">
+          </div>
+            <div class="content">
+              <div class="title">PEANUTS MOODS UT</div>
+              <p>In this new collection of Peanuts UT, we focus on Snoopy and his wide array of funny moods and adorable gestures.</p>
+            </div>
+        </div>   
+      </div>
+    </div>
+
+    <div class="btn-shop-all">
+      <button class="shop-all">SHOP ALL UT COLLECTIONS</button>
+    </div>
+
+    <!-- cards slider 2-->
+     <h2 class="fr-head card-slider-tit">
+      <span class="grid-title">FEATURED CATEGORIES</span>
+     </h2>
+    <div class="slider-wrapper">
+      
+      <div class="slider owl-carousel">
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-e.jpg" alt="pink-lady">
+          </div>
+            <div class="content">
+              <div class="title">COMFORTABLE CLOTHING EVERY DAY</div>
+              <p>A new lifestyle starting at home.</p>
+            </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-f.jpg" alt="pearl neckless model">
+          </div>
+            <div class="content">
+              <div class="title">CLOTHING THAT'S COMFORTABLE AND UPLIFTING</div>
+              <p>Refined quality to add a bit of luxury to life.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-g.jpg" alt="men">
+          </div>
+            <div class="content">
+              <div class="title">MAKING YOUR BUSY ROUTINE EASIER</div>
+              <p>Sharp looks packed with comfort and functionality.</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-h.jpg" alt="soccer boy">
+          </div>
+            <div class="content">
+              <div class="title">THE FREEDOM TO ENJOY SPORTS AND EVERYDAY LIFE</div>
+              <p>Clothing outfitted with both functionality and good design.</p>
+            </div>
+        </div>   
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-i.jpg" alt="brown jacket girl">
+          </div>
+            <div class="content">
+              <div class="title">SPEND COLD DAYS IN COMFORT</div>
+              <p>Technology and quality materials offer a smart way to fight the cold without piling on the layers.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-j.jpg" alt="uniqlo masterpiece">
+          </div>
+            <div class="content">
+              <div class="title">UNIQLO MASTERPIECE</div>
+              <p>Each and every piece of clothing is an eternal masterpiece for those who live in the present.</p>
+            </div>
+        </div> 
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-k.jpg" alt="heattech">
+          </div>
+            <div class="content">
+              <div class="title">HEATTECH</div>
+              <p>Learn more about how Heattech generates heat from your body.</p>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- card slider 3 -->
+    <h2 class="fr-head card-slider-tit">
+      <span class="grid-title">ABOUT UNIQLO</span>
+    </h2>
+    <div class="slider-wrapper">
+      
+      <div class="slider owl-carousel">
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-l.jpg" alt="styling book">
+          </div>
+            <div class="content">
+              <div class="title">STYLEING BOOK</div>
+              <p>Need a little style inspiration? Check out our Styling Book for the latest UNIQLO looks!</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-m.jpg" alt="sports">
+          </div>
+            <div class="content">
+              <div class="title">UNIQLO GLOBAL BRAND AMBASSADORS</div>
+              <p>UNIQLO has teamed up with of the world's top athletes.</p>
+            </div>
+        </div>
+      
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-n.jpg" alt="Reviews">
+          </div>
+            <div class="content">
+              <div class="title">WRITE A REVIEW ON YOUR UNIQLO PURCHASES</div>
+              <p>Customer feedback is very important to us. Post a review in 4 easy steps!</p>
+            </div>
+        </div>
+        
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-o.jpg" alt="life wear">
+          </div>
+            <div class="content">
+              <div class="title">THIS IS LIFE WEAR</div>
+              <p>Who you are what you believe in: that's what you wear every day. And that is what we make clothing for. Welcome to a new way of apparel.</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-p.jpg" alt="old men">
+          </div>
+            <div class="content">
+              <div class="title">UT 2020 MAGAZINE</div>
+              <p>See what have planned for our UT Graphic Tees in the UT 2020 Magazine.</p>
+            </div>
+        </div>   
+
+        <div class="card">
+          <div class="img">
+            <img src="images/uni-alphabet/uni-q.jpg" alt="bone dino">
+          </div>
+            <div class="content">
+              <div class="title">LIFEWEAR MAGAZINE</div>
+              <p>Read the stories behind our 2020 Fall/Winter collections and more.</p>
+            </div>
+        </div>  
+      </div>
+    </div>
+    <!-- dear customer message sign -->
+    <button type="button" class="btn btn-primary dear-user" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
+      <div class="dear-cus">
+        <p class="dear">DEAR CUSTOMER: PLEASE CLICK HERE FOR UPDATES TO OUR RETURNS & SHIPPING POLICIES INCLUDING <br> OUR HOLIDAY RETURNS PERIOD AND PO BOX NOTICE</p>
+      </div>
+    </button> 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">READ OUR FAQ UPDATES:</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li class="pop-list">
+                <a href="#">RETURNS POLICY UPDATE</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">HOLIDAY RETURNS POLICY</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li class="pop-list">
+                <a href="#">PO BOX SHIPPING NOTICE</a>
+                <i class="fas fa-angle-right"></i>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-        <!-- &copy; Kevin Taguchi - 12.17.20 -->
-    </footer>
+    </div>
+    <!-- UNIQLO today -->
+    <h2 class="fr-head card-slider-tit uni-today">
+      <span class="grid-title">UNIQLO TODAY</span>
+    </h2>
 
+    <div class="today">
+      <a href="#">
+        <div class="today-row">
+          <img src="images/uni-alphabet/uni-r.jpg" class="img-about" alt="ads-pics" width="220">
+          <div class="today-row-in"> 
+            <h3 class="today-tit">HOLIDAY 2020 GIFT IDEAS</h3>
+            <p class="today-dis">Check out some of our favourite gift ideas that will keep your loved ones stylish and warm!</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="today-row">
+          <img src="images/uni-alphabet/uni-s.jpg" class="img-about" alt="ads-pics" width="220">
+          <div class="today-row-in">  
+            <h3 class="today-tit">WHAT YOU LOVE</h3>
+            <p class="today-dis">Read what fellow Canadians have to say about their favourite Uniqlo pieces!</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="today-row">
+          <img src="images/uni-alphabet/uni-t.jpg" class="img-about" alt="ads-pics" width="220">
+          <div class="today-row-in"> 
+            <h3 class="today-tit">THE UNIQLO JEANS INNOVATION STORY</h3>
+            <p class="today-dis">Equipped with cutting-edge technologies and operated by renowned specialists, the JIC today works tirelessly to craft innovative jeans that will define the future of fashion.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="btn-shop-all">
+      <button class="shop-all">SEE MORE ARTICLES</button>
+    </div>
+
+    <div class="app-img">
+      <a href="http://l.ead.me/bb3Z6C">
+        <img src="images/uni-alphabet/uni-app.jpg" alt="app-img">
+      </a>
+    </div>
+
+    <h2 class="fr-head card-slider-tit info-title">
+      <span class="grid-title">INFORMATION</span>
+    </h2>
+    <div class="information">
+      <a href="#" class="info-4">
+        <p class="li-4">RETURNS POLICY</p>
+      </a>
+      <a href="#" class="info-4">
+        <p class="li-4">ASK OUR CHATBOT</p>
+      </a>
+      <a href="#" class="info-4">
+        <p class="li-4">STORE LOCATOR</p>
+      </a>
+      <a href="#" class="info-4">
+        <p class="li-4">E-NEWSLETTER</p>
+      </a>
+    </div>
+  </main>
+    
+    <!-- footer -->
+      <footer class="footer-wrapper">
+        <div class="footer-container">
+          <div class="footer-list-container">
+            
+            <div class="footer-header">About Uniqlo</div>
+            <!-- first footer menu list -->
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">LifeWear</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Information</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Careers</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Sustainability</div>
+            </a>
+          </div>
+          <!-- second footer menu list -->
+          <div class="footer-list-container">
+            
+              <div class="footer-header">Help</div>
+            
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">FAQ</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">contact Us</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Return Policy</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Accessibility</div>
+            </a>
+          </div>
+          <!-- third footer menu list -->
+          <div class="footer-list-container">
+            
+              <div class="footer-header ftr">Account</div>
+    
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Membership</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Profile</div>
+            </a>
+            <a href="#" class="footer-list-link">
+              <div class="footer-list">Coupons</div>
+            </a>
+          </div>
+          <!-- fourth footer menu list -->
+          <div class="footer-list-container">
+            
+              <div class="footer-header E-Newsletter">E-Newsletter</div>
+            
+            <p class="E-Newsletter-p">Sign up and be the first-in-the know about new arrivals, promotions, in-store events and more.</p>
+            <a href="#" class="footer-list-link subscribe">
+              SUBSCRIBE NOW
+            </a>
+          </div>
+          <!-- fifth footer menu list -->
+          <div class="footer-icon-container">
+            
+          <div class="footer-header">UNIQLO Social Account</div>
+          
+          <div class="icon-container">
+            <a href="#" class="footer-list-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer-list-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-list-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-list-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+            
+          </div>
+        </div>
+    </footer>
+      <div class="footer-copyright text-center py-3">
+        <a href="https://mdbootstrap.com/" class="bootstrap-copy-link">© 2020 Copyright: MDBootstrap.com</a>
+        <div class="tp">
+          <a href="https://mdbootstrap.com/" class="term ">Term</a>
+          <a href="https://mdbootstrap.com/" class="policy bootstrap-link">Policy</a>
+        </div>
+      </div>
+      
+      <!-- JavaScript links -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <!-- loop card slide -->
+<script>
+  $(".slider").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3300, //3300ms = 3.3s;
+    autoplayHoverPause: true,
+  });
+</script>
 </body>
 </html>
