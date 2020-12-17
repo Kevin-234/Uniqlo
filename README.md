@@ -18,3 +18,4 @@
 - It's not responsible yet and I haven't figure it out how to create dropdown hover for navbar.
 - I start enjoying create SVG by Figma. In this case, Uniqlo logos.
 - It was my first time to mimic a website to create. I learnt many thing from this project going through bootstrap.
+- I can't tell if I'm using this Uniqlo font properly.
