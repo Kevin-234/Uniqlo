@@ -155,6 +155,26 @@ nav {
 }
 
 /* MAIN */
+/* all modal button */
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-sale {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-sale:hover {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-boxing {
+  border-radius: 0;
+  background-color: #000;
+}
 
 /* first wide image container*/
 .wide-img-container {
