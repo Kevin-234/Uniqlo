@@ -15,7 +15,9 @@
 ## Comments
 - I still need to learn bootstrap to use bootstrap well. Less css and html makes coding faster. 
 - Bootstrap has own css so it was difficult to work on.
-- It's not responsible yet and I haven't figure it out how to create dropdown hover for navbar.
-- I start enjoying create SVG by Figma. In this case, Uniqlo logos.
-- It was my first time to mimic a website to create. I learnt many thing from this project going through bootstrap.
+- It's not responsive yet and I haven't figure it out how to create dropdown hover for navbar by bootstrap.
+- I start enjoying create SVG by doing in Figma. In this case, Uniqlo logos (Japanese version and English version).
+- It was my first time to imitate a website to create. I learned many thing from this project going through bootstrap.
+
+### Question from me
 - I can't tell if I'm using this Uniqlo font properly.
